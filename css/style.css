@@ -1,0 +1,39 @@
+.container {
+  height: 200px;
+}
+
+
+.container.title {
+  height: 100px;
+}
+
+/* stili in comune */
+.lightgray {
+  background-color: lightgray;
+}
+
+.col-lg-4 , .col-lg-5 , .col-lg-12{
+  position: relative;
+}
+
+.txt-center {
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+
+/* stili in comune */
+
+
+#icon {
+  border-radius: 50%;
+  background-color: #428bca;
+  padding: 30px;
+}
