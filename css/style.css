@@ -31,3 +31,33 @@
 h3 , p {
   margin: 10px;
 }
+
+@media screen and (max-width: 767px) {
+
+  header {
+    background-color: #f2f2cd;
+  }
+
+  footer.lightgray {
+    background-color: #f2f2cd;
+  }
+
+  #maps {
+    width: 30%;
+  }
+
+  #screen {
+    width: 35%;
+  }
+
+  .img-line {
+    width: 100px;
+  }
+
+  .img-radius {
+    width: 125px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #428bca;
+  }
+}
