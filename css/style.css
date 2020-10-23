@@ -1,39 +1,33 @@
-.container {
-  height: 200px;
-}
 
-
-.container.title {
-  height: 100px;
-}
-
-/* stili in comune */
-.lightgray {
-  background-color: lightgray;
-}
-
-.col-lg-4 , .col-lg-5 , .col-lg-12{
-  position: relative;
-}
 
 .txt-center {
   text-align: center;
   padding: 10px;
 }
 
-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 100%;
+#maps {
+  width: 40%;
 }
 
-/* stili in comune */
+#screen {
+  width: 65%;
+}
 
+.img-line {
+  width: 200px;
+}
 
-#icon {
+.lightgray {
+  background-color: lightgray;
+}
+
+.img-radius {
+  width: 250px;
   border-radius: 50%;
+  padding: 20px;
   background-color: #428bca;
-  padding: 30px;
+}
+
+h3 , p {
+  margin: 10px;
 }
